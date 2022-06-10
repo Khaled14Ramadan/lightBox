@@ -1,0 +1,58 @@
+.container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.item {
+    position: relative;
+    cursor: pointer;
+}
+
+.itemcaption {
+    width: 80%;
+    background-color: #fff;
+    position: absolute;
+    left : 10%;
+    bottom: 20px;
+}
+
+.lightbox {
+    position: fixed;
+    background-color: rgba(0, 0, 0, .6);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+#content {
+    width: 70%;
+    height: 80%;
+    padding: 25px;
+    background-image: url(../images/client1.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.lightbox .content i {
+    font-size: 20px;
+    color: blue;
+    cursor: pointer;
+}
+
+#close {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+
+}
+
+.hide {
+    display: none;
+}
